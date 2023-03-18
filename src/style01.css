@@ -1,0 +1,158 @@
+#body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#navbar {
+    padding: 8px;
+}
+
+#logo {
+    height: 20px;
+}
+
+#banner {
+    height: 360px;
+    object-fit: cover;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: cadetblue;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+#description {
+    width: 50%;
+    font-size: 20px;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-image {
+    width: 100%;
+    border-radius: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#jobs-table {
+    border: 1px solid gray;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    background-color: #93C5FD;
+    text-align: center;
+    padding: 8px;
+    color: #222222;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: #DBEAFE;
+}
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.form-group {
+    margin: 16px 0;
+}
+
+#application-form input,select,textarea {
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 4px;
+    font-size: 1.25rem;
+    color: #222222;
+}
+
+.form-group {
+    font-weight: 500;
+}
+
+.form-group textarea {
+    width: 80%;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #DBEAFE;
+    font-weight: 500;
+    color: burlywood;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #A8A29E;
+    text-align: center;
+    padding: 8px;
+    margin-top: 32px;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright {
+    color: #57534E;
+}
